@@ -1,13 +1,294 @@
 <!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/me-1024x1014.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">About</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-              </html>
+	<head>
+		<title>Indenture Records Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<!-- Add Font Awesome refs -->
+		<link href="/assets/css/all.css" rel="stylesheet" />
+		<script src="https://kit.fontawesome.com/4fd7da23e2.js" crossorigin="anonymous"></script>
+		<script defer src="/assets/js/all.js"></script>
+		
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
+		<script src="assets/js/jquery.fancybox.min.js"></script>
+
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="assets/css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="assets/js/helpers/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.fancybox-media.js"></script>
+		
+		<script type="text/javascript">
+		 $(document).ready(function(){
+		  $(".fancybox").fancybox({
+			openEffect  : 'elastic',
+			closeEffect : 'elastic',
+			helpers     : {
+				title: {
+					type: 'inside'
+				}
+			}
+		  });
+		 });
+		</script>
+
+		<!--Add Flickity carousel scripts-->
+	
+	<script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
+	<script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+	<!--<script href="assets/css/flickity.asnavfor.js" type="text/javascript"></script>-->
+	<script type="text/javascript" src="assets/js/flickity.datacarousel.js"></script>
+	<link rel="stylesheet" href="assets/css/flickity.datacarousel.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/flickity.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/flickity.asnavfor.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/flickity.min.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/flickity.datacarousel.section.css" type="text/css" />
+	
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo"> 
+									<div class="title">Investigating Indentured Servitude:</div> 
+									<div class="sub-title">Visualizing Experiences of Colonial America</div>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="introduction.html">What is Indentured Servitude?</a></li>
+							<li><a href="journey.html">The Journey to Indenture</a></li>
+							<li><a href="gender.html">Gendered Indenture</a></li>
+							<li><a href="time.html">Length of Indenture</a></li>
+							<li><a href="about.html">About this Data</a></li>
+							<li><a href="contribute.html">What Do You Think?</a></li>
+							<li><a href="resources.html#glossary">Glossary of Terms</a></li>
+							<li><a href="resources.html#bibliography">Bibliography</a></li>
+						</ul>
+					</nav>
+
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+										
+								<h1>Introduction</h1>
+								<p>Between October 3rd, 1771 and October 5th, 1773, over 5,000 contracts of indenture were registered in Philadelphia.  Over a two year period, staff at the American Philosophical Society digitized and transcribed the bound volume of records creating a large <a href="about.html" target="_blank">dataset</a>. This data can be visualized in many ways.  Each map, graph, and diagram can be used in data stories that tell us about those who were indentured. This digital gallery offers a glimpse into what we have learned so far. Use the story map below to learn more about the project and as a guide to this digital exhibit.</p>
+								
+							</header>
+
+<body>
+	<div class="carousel-container">
+	<!-- Flickity HTML init -->
+	<div class="carousel carousel-main" data-flickity>
+	  <div class="carousel-main carousel-cell">The Project</div>
+	  <div class="carousel-main carousel-cell">What is Indentured Servitude?</div>
+	  <div class="carousel-main carousel-cell">The Journey to Indenture</div>
+	  <div class="carousel-main carousel-cell">Gendered Indenture</div>
+	  <div class="carousel-main carousel-cell">Length of Indenture</div>
+	  <div class="carousel-main carousel-cell">About this Data</div>
+	  <div class="carousel-main carousel-cell">What Do You Think?</div>
+	</div>
+
+	<div class="carousel carousel-nav"
+	  data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "prevNextButtons": false }'>
+
+	  <div class="carousel-nav carousel-cell">
+	  	<div class="carouseltext">
+	  		<h4>This Project</h4>
+	  	</div>
+	  </div>
+
+
+	  <div class="carousel-nav carousel-cell">
+	  		<img class="carouselimage" src="images/indenture.jpg" alt="" />
+	  		<div class="carouseltext">	
+	  			<h4>What is Indentured Servitude?</h4>
+	  		</div>	
+	  </div>
+
+	  <div class="carousel-nav carousel-cell">
+	  		<img class="carouselimage" src="images/location.jpg" alt="" />
+	  		<div class="carouseltext">
+				<h4>The Journey to Indenture</h4>
+			</div>	
+	  </div>
+
+	  <div class="carousel-nav carousel-cell">
+	  	<div class="carouselimage">
+			<img class="carouselimage" src="images/gender.jpg" alt="" />
+			<h4>Gendered Indenture</h4>
+		</div>
+	  </div>
+
+	  <div class="carousel-nav carousel-cell">
+	  	<div class="carouselimage">
+			<img class="carouselimage" src="images/time.jpg" alt="" />
+			<h4>Length of Indenture</h4>
+		</div>
+	  </div>
+
+	  <div class="carousel-nav carousel-cell">
+	  	<div class="carouselimage">
+			<img class="carouselimage" src="images/data.jpg" alt="" />
+			<h4>About this Data</h4>
+		</div>
+	 </div>
+
+	  <div class="carousel-nav carousel-cell">
+		<div class="carouselimage">
+			<img class="carouselimage" src="images/learn.jpg" alt="" />
+			<h4>What Do You Think?</h4>
+		</div>
+	  </div>
+
+	</div><!-- end nav-->
+</div><!--end carousel container-->
+
+
+							
+							<iframe src='https://uploads.knightlab.com/storymapjs/f134f81df78eee25f1d8918a02900ad4/indenture-test-2/index.html' width='100%' height='650'></iframe><br />
+							<hr />
+							<h2>Unpacking the Data</h2>
+							<p>The sections in this gallery explore the concept of indentured servitude and how it was used to populate Colonial America.  We examine different themes - distance, gender, and time – through interactive visualizations paired with stories of individuals found within the record. You can download the data for yourself in the "About this Data" section, where we also address larger concepts of historic open data and the importance of data transparency.</p> 				
+							<section class="tiles">
+								<article class="style6">
+									<span class="image">
+										<img src="images/indenture.jpg" alt="" />
+									</span>
+									<a href="introduction.html">
+										<h2>What is Indentured Servitude?</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/location.jpg" alt="" />
+									</span>
+									<a href="journey.html">
+										<h2>The Journey to Indenture</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/gender.jpg" alt="" />
+									</span>
+									<a href="gender.html">
+										<h2>Gendered Indenture</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/time.jpg" alt="" />
+									</span>
+									<a href="time.html">
+										<h2>Length of Indenture</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/data.jpg" alt="" />
+									</span>
+									<a href="about.html">
+										<h2>About this Data</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/learn.jpg" alt="" />
+									</span>
+									<a href="contribute.html">
+										<h2>What do you think?</h2>
+										<div class="content">
+											
+										</div>
+									</a>
+								</article>
+
+
+							</section>	
+		
+						<!--  /inner -->
+					</div>
+					</div><!-- /main -->	
+							<!-- Footer -->	
+									<footer id="footer">
+																		
+										<div class="inner">
+
+											<section id="about">
+												<h2>About the APS</h2>
+												<p>An eminent scholarly organization of international reputation, the American Philosophical Society promotes useful knowledge in the sciences and humanities through excellence in scholarly research, professional meetings, support of young scholars, publications, library resources, a museum and community outreach.</p>
+											</section>
+											<section id="follow">
+												<h2>Follow the APS</h2>
+												<ul class="icons">
+													<li><a href="https://twitter.com/AmPhilSociety" target="_blank" class="icon" alt="Twitter"><span class="fab fa-twitter-square fa-3x"></span></a></li>
+													<li><a href="https://www.facebook.com/americanphilosophicalsociety" target="_blank" class="icon" alt="Facebook"><span class="fab fa-facebook-square fa-3x"></span></a></li>
+													<li><a href="https://www.instagram.com/amphilsociety/" target="_blank" class="icon" alt="Instagram"><span class="fab fa-instagram fa-3x"></span></a></li>
+													<li><a href="https://github.com/AmericanPhilosophicalSociety/" target="_blank" class="icon" alt="GitHub"><span class="fab fa-github-square fa-3x"></span></a></li>
+												</ul>
+											</section>
+											
+										</div>
+									</footer>
+					
+							
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+		</div><!--end wrapper-->	
+	</body>
+</html>
